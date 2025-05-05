@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Café Aroma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Café Aroma</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#reservation">Reserve a Table</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>Welcome!</h2>
+            <p>Enjoy fresh coffee, pastries, and warm atmosphere at Café Aroma.</p>
+        </section>
+
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <p>Espresso - $3</p>
+            <p>Cappuccino - $4</p>
+            <p>Croissant - $2.5</p>
+            <p>Muffin - $2</p>
+        </section>
+
+        <section class="reservation" id="reservation">
+            <h2>Reserve a Table</h2>
+            <div class="container">
+                <form action="reserve.php" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required>
+
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" required>
+
+                    <label for="time">Time:</label>
+                    <input type="time" name="time" required>
+
+                    <label for="guests">Guests:</label>
+                    <input type="number" name="guests" min="1" max="10" required>
+
+                    <button type="submit">Reserve Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+

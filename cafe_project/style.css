@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf6ee;
+    margin: 0;
+    padding: 0;
+    color: #2c1d13;
+}
+
+header {
+    background-color: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fce4ec;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2,
+.menu h2,
+.reservation h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+.menu {
+    margin-bottom: 60px;
+}
+
+.menu p {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.container {
+    background-color: white;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #6d4c41;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #5d4037;
+}
+
+a {
+    transition: all 0.2s ease;
+}
+
